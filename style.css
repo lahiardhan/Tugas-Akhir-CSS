@@ -1,0 +1,239 @@
+@font-face {
+	font-family: Retroica;
+	src: url("text/Retroica.ttf");
+}
+@font-face {
+	font-family: Young;
+	src: url("text/Young.ttf");
+}
+
+body{
+   color: white;
+	font-family: Young;
+   background-color: #212529;
+}
+a {
+   color: white;
+   text-decoration: none;
+}
+footer {
+	font-size: 15px;
+}
+
+.display-3,
+.retroica {
+	font-family: Retroica;
+}
+
+/* HOVER */
+.hover-btn {
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+/* HOVER */
+
+/* NAVBAR */
+.nav-link {
+	background-color: transparent;
+	color: white;
+}
+.nav-link:hover {
+	background-color: #ff4900;
+	color: white;
+}
+/* NAVBAR */
+
+.direct-btn {
+   background-color: #ff4900;
+}
+.direct-btn:hover {
+   color: white;
+   background-color: #212529;
+}
+.direct-light-btn {
+   background-color: #ff4900;
+   border: 2px solid #ff4900;
+}
+.direct-light-btn:hover {
+   color: white;
+   background-color: transparent;
+   border: 2px solid white
+}
+
+/* FOOTER */
+.sosmed:hover,
+.partner:hover {
+   color: #ff4900;
+}
+.copyright {
+   font-size: 14px;
+}
+/* FOOTER */
+
+
+
+/** HOMEPAGE CSS */
+/* BANNER IMAGE */
+.banner-image {
+	background-image: url("img/banner1.jpg");
+	background-size: cover;
+}
+
+.boxchat {
+	width: 8rem;
+}
+.boxhello {
+	width: 100%;
+	height: 2.5rem;
+	background-color: #ff4900;
+	text-align: center;
+}
+.segitiga {
+	height: 0px;
+	width: 0px;
+	margin-left: 6rem;
+	border-top: solid 18px #ff4900;
+	border-left: solid 10px transparent;
+	border-right: solid 10px transparent;
+}
+
+
+.aboutme-btn {
+	background-color: #ff4900;
+	color: white;
+	border: 2px solid #ff4900;
+}
+.aboutme-btn:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+.project-btn {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+.project-btn:hover {
+	background-color: #ff4900;
+	color: white;
+	border: 2px solid #ff4900;
+}
+/* BANNER IMAGE */
+
+
+/* ABOUT */
+#about {
+   color: #212529;
+   background-color: #f8f9fa;
+}
+/* ABOUT */
+
+
+/* OUR WORK */
+/* OUR WORK */
+
+
+/* CONTACT */
+#contact {
+   color: #212529;
+   background-color: #f8f9fa;
+}
+/* CONTACT */
+/** HOMEPAGE CSS */
+
+
+/** OURWORKPAGE CSS  */
+.skills {
+	color: #212529;
+	background: #f8f9fa;
+}
+.srvcs-panel {
+	height: 100px;
+	font-size: 24px;
+	object-fit: cover;
+	object-position: center;
+	background-position: center center;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.srvcs-panel:hover {
+	box-shadow: 1px 1px 10px #ff480050, -1px -1px 10px #ff480050;
+	transform: translateY(-0.1em);
+}
+.services-ecommerce {
+	background-image: url("img/service/ecommerce.jpg");
+} 
+.services-education {
+	background-image: url("img/service/education.jpg");
+}
+.services-fintech {
+	background-image: url("img/service/fintech.jpg");
+}
+.services-food {
+	background-image: url("img/service/food.jpg");
+}
+.services-health {
+	background-image: url("img/service/health.jpg");
+}
+.services-travel {
+	background-image: url("img/service/travel.jpg");
+}
+/** OURWORKPAGE CSS  */
+
+
+/** ABOUTPAGE CSS */
+#about1{
+	background-color: #212529;
+	font-size: 18px;
+}
+#about2 {
+	background: #f8f9fa;
+	color: #212529;
+	font-size: 18px;
+}
+.about-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rounded-5 {
+	border-radius: 25px;
+}
+@media screen and (max-width: 430px) {
+	#about1 h5,
+	#about2 h5 {
+		font-size: 16px;
+	}
+}
+/** ABOUTPAGE CSS */
+
+
+/** CONTACTPAGE CSS */
+#contact-section {
+	background-blend-mode: multiply;
+	background-color: gray;
+	height: 100vh;
+	background-image: url("img/carousel/frontend.jpg");
+	object-fit: cover;
+	object-position: center;
+}
+.navbar-contact-page {
+	background: rgba(138, 138, 138, 0.185);
+}
+.form-contact {
+	background: transparent;
+}
+/** CONTACTPAGE CSS */
